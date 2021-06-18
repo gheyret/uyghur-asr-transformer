@@ -15,18 +15,21 @@ Recognition:
 for recognition download only [pretrained model](https://github.com/gheyret/uyghur-asr-transformer/releases/download/premodel/results.7z). then run:
 
 ```
-python tonu.py test1.wav 
+python .\tonu.py .\test6.wav
 ```
 result will be:
 ```
-        Model loaded: results/UModel_last.pth
-            Best CER: 7.21%
-             Trained: 473 epochs
-The model has 26,389,282 trainable parameters
+        Model loaded: results/UFormer_last.pth
+            Best CER: 4.16%
+             Trained: 276 epochs
+The model has 36,418,306 trainable parameters
+ Feature  has 25,869,058 trainable parameters
+  Encoder has 4,205,568 trainable parameters
+  Decoder has 6,343,680 trainable parameters
 
 ======================
-Recognizing file .\test2.wav
-test2.wav -> bu öy eslide xotunining xush tebessumi oghlining omaq külküsi bilen güzel idi
+Recognizing file .\test6.wav
+test6.wav -> u qizlarning resimi chiqip qalsa bilekchila sinchilap qaraytti
 ```
 
 This project using 
