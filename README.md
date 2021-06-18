@@ -3,7 +3,7 @@ Training:
 
 this model using CTC loss for training.
 
-Download [pretrained model](https://github.com/gheyret/uyghur-asr-ctc/releases/download/data/results.7z) and [dataset](https://github.com/gheyret/uyghur-asr-ctc/releases/download/data/thuyg20_data.7z).
+Download [pretrained model](https://github.com/gheyret/uyghur-asr-transformer/releases/download/premodel/results.7z) and [dataset](https://github.com/gheyret/uyghur-asr-ctc/releases/download/data/thuyg20_data.7z).
 
 unzip results.7z and thuyg20_data.7z to the same folder where python source files located. then run:
 ```
@@ -12,7 +12,7 @@ python train.py
 
 Recognition:
 
-for recognition download only pretrained model(results.7z). then run:
+for recognition download only [pretrained model](https://github.com/gheyret/uyghur-asr-transformer/releases/download/premodel/results.7z). then run:
 
 ```
 python tonu.py test1.wav 
