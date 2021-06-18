@@ -1,7 +1,7 @@
-# Speech Recognition for Uyghur using deep learning
+# Speech Recognition for Uyghur using Speech transformer
 Training:
 
-this model using CTC loss for training.
+this model using CTC loss and Cross Entropy loss for training.
 
 Download [pretrained model](https://github.com/gheyret/uyghur-asr-transformer/releases/download/premodel/results.7z) and [dataset](https://github.com/gheyret/uyghur-asr-ctc/releases/download/data/thuyg20_data.7z).
 
