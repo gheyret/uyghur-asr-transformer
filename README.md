@@ -1,5 +1,6 @@
 # Speech Recognition for Uyghur using Speech transformer
-Training:
+
+###Training:
 
 this model using CTC loss and Cross Entropy loss for training.
 
@@ -10,7 +11,7 @@ unzip results.7z and thuyg20_data.7z to the same folder where python source file
 python train.py
 ```
 
-Recognition:
+###Recognition:
 
 for recognition download only [pretrained model](https://github.com/gheyret/uyghur-asr-transformer/releases/download/premodel/results.7z). then run:
 
@@ -32,7 +33,11 @@ Recognizing file .\test6.wav
 test6.wav -> u qizlarning resimi chiqip qalsa bilekchila sinchilap qaraytti
 ```
 
-This project using 
+###This project using 
 
 [**A free Uyghur speech database Released by CSLT@Tsinghua University & Xinjiang University**](http://www.openslr.org/22/)
+
+
+#Reference
+**https://github.com/gentaiscool/end2end-asr-pytorch**
 
